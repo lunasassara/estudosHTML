@@ -1,37 +1,64 @@
 <html>
   <head>
-      <title>Estudando html</title>
+      <title>Estudando html</title>  <!-- é a info que fica no navegador-->
       <meta charset="utf-8"/>
   </head>
 
   <body>
       <h1>Full Stack Blend</h1>
-          <h2 align="center">Curso de programação</h2>
+          <h2 align="center">Curso de programação</h2> <!--para alinhar-->
               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus lobortis lacus vitae convallis. Aenean ut elit quis justo vulputate dapibus. Mauris venenatis suscipit quam vel ornare. </p>
               <p> Sed velit odio, maximus a ex at, bibendum condimentum arcu. Duis nec nisl eu lacus pellentesque lobortis id eu dolor. Nunc pretium est et hendrerit consequat. Nulla facilisi.</p>
   
-              <ul>
+              <ul> <!--lista sem ordem vai com bolinha por default-->
                 <li>html</li>
                 <li>css</li>
                 <li>javascript</li>
               </ul>
 
-              <ol>
+              <ul type = 'circle'> <!--para mudar os marcadores, podemos usar: square, upper roman, lower alpha, none-->
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+              </ul>
+
+              <ol> <!--lista ordenada-->
                 <li>html</li>
                 <li>css</li>
                 <li>javascript</li>
               </ol>
 
-              <ol type = "I">
+              <ol type = "I"> <!--lista ordenada com romanos, pode ser com letras tb (a)-->
                 <li>html</li>
                 <li>css</li>
                 <li>javascript</li>
               </ol>
 
-              <ol start = "20">
+              <ol start = "20"> <!--lista começando de determinado número-->
                 <li>html</li>
                 <li>css</li>
                 <li>javascript</li>
               </ol>
+
+              <ul> <!--lista aninhada-->
+                <li>Lembrete para viagem</li>
+
+                  <ol type = "a"> <!--lista ordenada com romanos, pode ser com letras tb (a)-->
+                    <li>Passaporte</li>
+                    <li>Comprovante vacinal</li>
+                  </ol>
+
+                <li>Marcar exames</li>
+                <li>Ligar para Julya</li>
+              </ul>
+
+              <!--rotas absolutas-->
+              <a href="http://google.com"> Vamos ao Google! </a>
+              <img src="https://wedologos.bladecdn.net/wp-content/uploads/2015/09/logotipo_cores.jpg" width="200"> 
+              
+              <!--rotas absolutas-->
+              <a href="quemSomos.html"> Ir para a página Quem Somos</a>
+              <img src="imagens/logotipo_cores.webp"></img> 
+              <img src="../outraimagem.jpg"></img>
   </body>
 </html>
